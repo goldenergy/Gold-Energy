@@ -1,0 +1,339 @@
+
+  
+body {
+    font-family: cursive;
+    margin: 0;
+    margin-top: 1rem;
+    
+}
+
+.logo {
+    margin-left: -8rem;
+    display: flex;
+}
+
+.logopic {
+    width: 8rem;
+    height: 5rem;
+    margin-right: 0rem;
+}
+
+.logotext{
+    margin-top: 2rem;
+    font-family: system-ui;
+    color: #f3ce3f;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    float: right;
+    margin-left: 51rem;
+     margin-top: -2rem;
+
+  }
+
+.nav-link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 5rem;
+    
+    font-size: 30px;
+    
+}
+.nav-link:hover {
+   
+    
+    text-decoration: underline;
+
+}
+
+.maintext {
+    line-height: 3.8rem;
+    margin-bottom: 1.3rem;
+    font-size: 4rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 88%;
+    height: 30rem;
+    margin-left: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box {
+    
+    color: black;
+    margin: 0rem 2.5rem;
+    font-size: 2.6rem;
+    margin-top: -29rem;
+    border-radius: 10px;
+    width: 18.5rem;
+    height: 31rem;
+    
+  
+}
+
+
+span {
+    
+    color: #f36c00;
+}
+
+span2 {
+    color: #086208;
+
+}
+
+
+
+p {
+    color: black;
+    width: 22rem;
+    font-size: 24px;
+    margin-bottom: 0.1rem;
+    
+}
+
+
+
+.button {
+    color: #f5f5f5;
+    background-color:rgb(255, 115, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 22rem;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+.button:hover {
+    background-color: rgb(220 70 10);
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    
+   
+}
+
+h2 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    line-height: 0rem;
+
+}
+.ourmission {
+    margin: 5rem 31.5rem;
+    font-size: 2rem;
+    text-align: center;
+    width: 23rem;
+   
+    border-radius: 16px;
+    padding-bottom: 24px;
+    padding-top: 1px;
+}
+
+.missiontext {
+    font-size: 19px;
+    font-family: Century Gothic;
+}
+
+.col-md-4 {
+    width: 27rem;
+    
+    height: 27rem;
+    text-align: center;
+    margin-left: 0.7rem;
+    border-radius: 1rem;
+    box-shadow: 13px 19px 8px grey;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+.gallery__img {
+    width: 12rem;
+    height: 8rem;
+    margin: 0;
+}
+
+.benefit {
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 14px;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+h4, h5, h6 {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 11px 39px;
+    font-family: system-ui;
+
+}
+
+.button2{
+    color: rgb(255, 115, 0);
+    background-color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 22rem;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.button2:hover {
+    color: rgb(220 70 10);
+}
+
+.advantages {
+    margin: 0px 28.6rem;
+    text-align: center;
+}
+
+.advantage {
+    font-size: 2.5rem;
+    width: 28rem;
+    height: 9rem;
+}
+
+.image-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-image {
+    padding: 0 20px 20px;
+}
+
+.gal {
+    width: 26rem;
+    height: 19rem;
+    margin: 0;
+    border-radius: 1rem;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+.featured {
+    color: green;
+    letter-spacing: 5px;
+    font-size: 17px;
+}
+
+
+
+.gogreen {
+    font-size: 2.5rem;
+    margin-top: -3px;
+    width: 23rem;
+}
+
+#projects {
+    margin: 6rem 30.9rem;
+    text-align: center;
+    margin-bottom: 3.4rem;
+    font-family: cursive;
+    width: 25rem;
+}
+
+.imagecontainer {
+    position: relative;
+    width: 33%;
+  }
+  
+ 
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .imagecontainer:hover .gal {
+    opacity: 0.3;
+    
+  }
+  
+  .imagecontainer:hover .middle {
+    opacity: 1;
+  }
+  
+  .middletext {
+    
+    color: #000;
+    font-size: 27px;
+    
+    
+  }
+
+.project {
+    color: #262626;
+}
+
+.paneltext{
+    text-decoration: none;
+    color: #000;
+}
+
+.paneltext:hover {
+    text-decoration: underline;
+}
+
+.end{
+    color: #000;
+    text-align: center;
+    width: 100%;
+   
+    height: 3rem;
+    font-size: 13px;
+  }
+
+  .footer {
+  text-decoration: none;
+  color: #000;
+  word-spacing: 33px;
+  margin-left: 20px;
+}
+
+.footercontainer {
+    width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://img.freepik.com/free-vector/ecology-environmental-concept-earth-symbol-with-green-leaves-around-cities-help-world-with-eco-friendly-ideas_29120-87.jpg?size=626&ext=jpg");
+  height: 40.75rem;
+  background-size: cover;
+}
+
+#footercontainer {
+    margin-top: 1rem;
+}
